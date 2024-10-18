@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9a6ba3; /* Fondo colorido */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    text-align: center;
+    background-color: #ce5296;
+    padding: 20px;
+    color: white;
+}
+
+/* Contenedor principal de imágenes */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.image-box {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-box img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 4px solid #4CAF50; /* Marcos verdes decorativos */
+}
+
+.image-box:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos de botones animados */
+.animated-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 20px 10px;
+}
+
+.animated-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.back-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 20px 10px;
+}
+
+.back-button:hover {
+    background-color: #e53935;
+    transform: scale(1.1);
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+
+/* Estilos decorativos adicionales */
+h1, h2 {
+    color: #4CAF50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Animación suave para scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo de botones generales */
+button {
+    background-color: #47f3ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #5c800a;
+    transform: scale(1.1);
+}
+
+

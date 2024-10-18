@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de Preguntas: Agua y Sales Minerales</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Responde las siguientes preguntas:</h2>
+            <form id="quiz-form">
+                <h2>Pregunta 1: ¿Cuál es la fórmula química del agua?</h2>
+                <label><input type="radio" name="question1" value="correcta"> H2O</label>
+                <label><input type="radio" name="question1" value="incorrecta"> CO2</label>
+                <label><input type="radio" name="question1" value="incorrecta"> O2</label>
+            
+                <h2>Pregunta 2: ¿Qué tipo de biomolécula es el agua?</h2>
+                <label><input type="radio" name="question2" value="correcta"> Inorgánica</label>
+                <label><input type="radio" name="question2" value="incorrecta"> Orgánica</label>
+            
+                <h2>Pregunta 3: ¿Cuál de las siguientes es una sal mineral?</h2>
+                <label><input type="radio" name="question3" value="correcta"> Sodio</label>
+                <label><input type="radio" name="question3" value="incorrecta"> Glucosa</label>
+            
+                <button id="submit-btn" type="button">Enviar respuestas</button>
+
+            </form>
+            
+            <div id="result"></div>
+            
+
+
+            </form>
+        </section>
+
+        <button class="back-button" onclick="location.href='index.html'">Volver a la página principal</button>
+    </main>
+
+
+
+    <footer>
+        <script src="script.js"></script>
+        <p>&copy; Grupo 3 color rojo </p>
+    </footer>
+</body>
+</html>
